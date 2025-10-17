@@ -1,9 +1,10 @@
 # Logistics
 
 ## Formation
-Each team has a group of 5 characters.  Each character can be in the front row or the back row. 
-Characters in the front row gain an extra attack bonus.
-Characters in the back row gain an extra defense bonus.  
+Each team has a group of 5 characters.  
+Each character can be in the front row or the back row.   
+Characters in the front row gain an extra attack bonus but suffer a defensive penalty.  (+1) / (-1)
+Characters in the back row gain an extra defense bonus but suffer an offensive penalty.  (+1) / (-1)
 
 ## Turn order
 A turn order will be determined based on the character's speed statistic.  The highest speed gets to go first followed by the next highest speed, etc.  
