@@ -23,7 +23,7 @@ The maximum allowable points will be 85.
 The minimum allowable points will be 65.  
 
 ## Strengths and Weaknesses
-Each class can have up to five strengths and five weaknesses.  
+Each class may have strengths and weaknesses.  
 If the attack is against a class with a strenth in that attack, damage will use the weak multiplier (0.5)  
 If the attack is against a class with a weakness in that attack, damage will use the strength multiplier (1.5)  
 Otherwise, the multiplier will be 1.0.  
