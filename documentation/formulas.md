@@ -12,6 +12,3 @@ Final.Damage = (Base.Damage x Type.Multiplier x Luck.Multiplier + Critical.Bonus
 
 All damage is clamped between 1 and 15 and will be an integer value.  
 
-
-
-
