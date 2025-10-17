@@ -30,3 +30,13 @@ Includes:
 - Speed
 - Stamina
 - Prestige
+
+## Strengths and Weaknesses
+Each class can have up to five strengths and five weaknesses.  
+
+## Example classes
+
+**Paladin**  
+| Stat | Value | Note |
+|-------|--------|--------|
+| P.Atk  | 
