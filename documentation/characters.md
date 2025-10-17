@@ -8,11 +8,20 @@ Each class has a single attack of one of these types:
 - Knife
 - Axe
 - Staff
+- Bow
 - Fire
 - Ice
 - Lightning
 - Holy
 - Dark
+- 
+
+### Attack list
+
+| Name   | Description |
+|---|---|
+
+
 
 Some attacks may target individual units and others may target groups depending on the class.  
 
@@ -41,3 +50,4 @@ If the attack is against a class with a weakness in that attack, damage will use
 Otherwise, the multiplier will be 1.0.  
 
 For example, a class can be strong against Dark, Fire, Ice, and Lightning but weak against Sword, Polearm, and Staff.  
+
