@@ -1,6 +1,6 @@
 # Formulas
 
-## Damage Caculations for single opponent
+## Damage Caculations for single attacks against a single target  
 Atk = P.Atk for Physical Attacks or M.Atk for magic attacks
 
 Base.Damage = (Atk x 2) - (Def x 0.7)  
@@ -12,7 +12,7 @@ Final.Damage = (Base.Damage x Type.Multiplier x Luck.Multiplier + Critical.Bonus
 
 All damage is clamped between 1 and 15 and will be an integer value.  
 
-## Damage calculations for multiple enemies
+## Damage calculations for attacks against multiple targets (or multiple attacks against a single target)  
 For attacks that target multiple enemies, a slightly different formula is used for the base damage and the critical damage:
 Base.Damage = (Atk x 1.8) - (Def x 0.7)
 Critical.Bonus = (Atk / 3) + (Luck / 3)  
