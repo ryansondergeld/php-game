@@ -19,3 +19,5 @@ Follow this process:
   - Add 2 points from the pool to 3 random stats (6 points total from the pool)  
   - Add 1 point from the pool to 6 random stats (6 points total from the pool)
 - Add any remaining points in the pool 1 by 1 to a random stat
+
+This seems to generate a decent variety of characters.  
