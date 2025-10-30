@@ -21,3 +21,21 @@ Follow this process:
 - Add any remaining points in the pool 1 by 1 to a random stat
 
 This seems to generate a decent variety of characters.  
+
+The above stats generated are for level 1.  
+
+During generation, each character will have 4 random growth stats also saved to their file.  For example, a character might have growth stats of P.Atk, Luck, Stamina, and Speed in that order.  
+
+When a character levels up they have the following chances to gain a statistic point:
+- 40% chance to gain a point in thier first growth stat
+- 30% chance to gain a piont in thier second growth stat
+- 20% chance to gain a point in their third growth stat
+- 10% chance to gain a point in thier fourth growth stat
+
+During the level up, if a stat is already at 15, the additional point will go into the stat from the top down.  For example, if we roleld and were going to put a point in to the third growth stat but it is already 15, we will check the first growth stat.  If that isn't 15 the point will be added there.  If it is 15, we will move on to the 2nd growth stat.  If all growth stats are at 15, the point will go to a random stat that isn't 15.  
+
+Every 3rd level, each character has a 25% chance to score an additional point.  That point will go through the same process as above.  
+
+The maximum level for a character is 15.  
+
+After level 15, the character will store "silent" level ups to 100.  This will be used later on to deterine if a character will retire or not.  
